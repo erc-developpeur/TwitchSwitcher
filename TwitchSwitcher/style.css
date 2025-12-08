@@ -1,0 +1,101 @@
+body {
+  width: 300px;
+  background-color: #18181b; /* Twitch Dark Background */
+  color: #efeff1;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #303032;
+  padding-bottom: 10px;
+}
+
+.account-item {
+  background-color: #26262c;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  transition: background 0.2s;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #9146FF; /* Twitch Purple */
+  color: white;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: #772ce8;
+}
+
+.btn-switch {
+  background-color: #3a3a3f;
+  color: white;
+}
+
+.btn-switch:hover {
+  background-color: #505055;
+}
+
+.btn-delete {
+  background-color: #eb0400;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c20400;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #00e6cb;
+  min-height: 15px;
+}
+
+
+.btn-secondary {
+  width: 100%;
+  padding: 8px;
+  background-color: #2f2f35;
+  color: #efeff1;
+  margin-top: 5px;
+  border: 1px solid #555;
+}
+.btn-secondary:hover {
+  background-color: #404046;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

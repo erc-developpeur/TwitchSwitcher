@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Switcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Mes Comptes Twitch</h2>
+    
+    <div id="accounts-list"></div>
+
+    <div class="controls">
+        <button id="btn-save" class="btn-primary">+ Sauvegarder ce compte</button>
+        <!-- Nouveau bouton pour changer de compte sans casser la sauvegarde -->
+        <button id="btn-logout" class="btn-secondary">⚠ Mode Ajout (Déconnexion Locale)</button>
+    </div>
+    
+    <div id="message" class="message"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
