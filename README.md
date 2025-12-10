@@ -75,4 +75,4 @@ Si vous êtes connecté à un compte et que vous souhaitez en ajouter un nouveau
 
 ## 📄 Licence
 
-Ce projet est sous licence [Ajouter le type de licence, ex: MIT].
+Ce projet est sous licence.
